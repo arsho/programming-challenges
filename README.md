@@ -2,4 +2,4 @@
 
 | Challenge name | Type |
 | --- | --- |
-| [HelpAnAlgorithmist](HelpAnAlgorithmist/README.md) | Search (Linear / Binary) |
+| [HelpAnAlgorithmist](HelpAnAlgorithmist/) | Search (Linear / Binary) |
