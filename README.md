@@ -1,5 +1,6 @@
 # Programming challenges
 
-| Challenge name | Type |
-| --- | --- |
-| [HelpAnAlgorithmist](HelpAnAlgorithmist/) | Search (Linear / Binary) |
+| Challenge name                              | Category                  |
+|---------------------------------------------|---------------------------|
+| [Help An Algorithmist](HelpAnAlgorithmist/) | Search (Linear / Binary)  |
+| [Art History](ArtHistory/)                  | Sort / Array / Hash Table |

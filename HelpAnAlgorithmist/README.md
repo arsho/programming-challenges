@@ -17,7 +17,9 @@ fail
 ```
 As you can see, the program first failed to compile at the fourth line and then all the subsequent lines also failed to compile.
 
-Can you help Bob to identify the line which raises the compilation error for the first time? 
+Can you help Bob to identify the line which raises the compilation error for the first time?
+
+Try to follow the motto of Bob, use minimum time complexity (logarithmic).
 
 ### Input:
 The first line contains the integer `N (1 <= N <= 5000) `, the length of Bob’s program.
