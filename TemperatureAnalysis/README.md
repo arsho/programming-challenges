@@ -1,11 +1,15 @@
 # Temperature Analysis
+
+![Temperature analysis](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/All_palaeotemps.png/800px-All_palaeotemps.png)
+
 You are given the temperature of a city for `N` days.
 Find the mean and median temperature for those days.
 
 ### Input:
 The first line contains the integer `N (1 <= N <= 100) `, the length of days.
 
-The remaining `N` lines contain the temperature of each day as a floating-point number.
+The remaining `N` lines contain the temperature of each day as a floating-point number. 
+The temperature will be between `0.0` to `100.0`.
 
 ### Output:
 Two lines;

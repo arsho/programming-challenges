@@ -1,4 +1,7 @@
 # Help an Algorithmist 
+
+![Debugger](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Firefox-76-devtools-debugger.png/800px-Firefox-76-devtools-debugger.png)
+
 Bob is an algorithmist (one who studies algorithms) and loves to write super-efficient programs with minimum time complexity. 
 One day he wrote an `N` line program which raised a compilation error. 
 From the debugger, he received the compilation status of each line in increasing order. 

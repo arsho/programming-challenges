@@ -33,6 +33,6 @@ public class HAATestCaseGenerator {
             generateInputTestfile(testcase + 1, numberOfLines[testcase], firstFailedCompilation);
             generateOutputTestfile(testcase + 1, firstFailedCompilation);
         }
-        System.out.println("Genereted " + numberOfLines.length + " testcases. Check test_cases folder.");
+        System.out.println("HAATestCaseGenerator: Genereted " + numberOfLines.length + " testcases. Check test_cases folder.");
     }
 }
