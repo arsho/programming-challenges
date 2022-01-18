@@ -1,8 +1,8 @@
 7
 pass
 pass
-fail
-fail
-fail
-fail
+pass
+pass
+pass
+pass
 fail

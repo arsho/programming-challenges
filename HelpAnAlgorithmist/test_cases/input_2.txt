@@ -1,6 +1,6 @@
 5
-fail
-fail
+pass
+pass
 fail
 fail
 fail

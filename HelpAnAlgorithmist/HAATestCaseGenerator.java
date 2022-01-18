@@ -27,12 +27,24 @@ public class HAATestCaseGenerator {
     }
 
     public void generateTestFiles() throws IOException {
-        int[] numberOfLines = new int[]{1, 5, 7, 10, 100, 500, 1000, 2000, 3000, 4000, 4500, 4800, 5000};
+        int[] numberOfLines = new int[]{1, 5, 7, 10, 15, 100, 1000, 5000};
+        int firstFailedCompilation;
         for (int testcase = 0; testcase < numberOfLines.length; testcase++) {
-            int firstFailedCompilation = 1 + new Random().nextInt(numberOfLines[testcase]);
+            firstFailedCompilation = 1 + new Random().nextInt(numberOfLines[testcase]);
             generateInputTestfile(testcase + 1, numberOfLines[testcase], firstFailedCompilation);
             generateOutputTestfile(testcase + 1, firstFailedCompilation);
         }
-        System.out.println("HAATestCaseGenerator: Genereted " + numberOfLines.length + " testcases. Check test_cases folder.");
+        int totalTestcases = numberOfLines.length;
+        firstFailedCompilation = 20000;
+        generateInputTestfile(totalTestcases + 1, 20000, firstFailedCompilation);
+        generateOutputTestfile(totalTestcases + 1, firstFailedCompilation);
+        totalTestcases++;
+
+        firstFailedCompilation = 10000;
+        generateInputTestfile(totalTestcases + 1, 20000, firstFailedCompilation);
+        generateOutputTestfile(totalTestcases + 1, firstFailedCompilation);
+        totalTestcases++;
+
+        System.out.println("HAATestCaseGenerator: Genereted " + totalTestcases + " testcases. Check test_cases folder.");
     }
 }

@@ -9,7 +9,7 @@ public class Main {
 //        haa.generateTestFiles();
 
         TATestCaseGenerator ta = new TATestCaseGenerator();
-        ta.generateTestFiles();
+//        ta.generateTestFiles();
 
     }
 }
