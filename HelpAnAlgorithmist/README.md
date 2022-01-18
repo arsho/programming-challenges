@@ -25,7 +25,7 @@ Can you help Bob to identify the line which raises the compilation error for the
 Try to follow the motto of Bob, use minimum time complexity (logarithmic).
 
 ### Input:
-The first line contains the integer `N (1 <= N <= 5000) `, the length of Bob’s program.
+The first line contains the integer `N (1 <= N <= 20000) `, the length of Bob’s program.
 
 The remaining `N` lines contain the compilation status for each line which can be either `pass` or `fail`.
 
