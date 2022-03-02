@@ -5,6 +5,7 @@
 | [Help An Algorithmist](HelpAnAlgorithmist/)  | Search (Linear / Binary)     |
 | [Art History](ArtHistory/)                   | Sorting / Array / Hash Table |
 | [Temperature Analysis](TemperatureAnalysis/) | Sorting / Array              |
+| [Solve a Puzzle](SolveAPuzzle/)               | Graph                        |
 
 ### Author
 
