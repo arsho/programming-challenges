@@ -21,6 +21,7 @@ From the figure, we can see that:
 
 It has 2 vertices (vertex B and vertex E) with odd degree. Thus, the graph is said to have an Eulerian path.
 So, we can draw this graph on paper without lifting the pencil from the paper and without using any edges twice. 
+If we start drawing from either vertex B or vertex E, we can draw this on paper with a continuous stroke.
 We should return `true` for this case.
 
 #### Example 2
