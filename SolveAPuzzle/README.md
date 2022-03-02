@@ -47,7 +47,7 @@ An integer `N (1 <= N <= 100)`, the number of nodes of the graph.
 
 A two-dimensional integer array `adjacencyMatrix` of size `N x N` representing the adjacency matrix of the graph. 
 ```
-adjacencyMatrix[i][j] = 1, if there is an between node i and node j
+adjacencyMatrix[i][j] = 1, if there is an edge between node i and node j
 adjacencyMatrix[i][j] = 0, otherwise
 ```
 
