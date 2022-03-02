@@ -1,14 +1,10 @@
 # Solve A Puzzle 
 
-You are given an undirected connected graph with `n` vertices. 
-To remind, the degree of a vertex is the number of edges that are connected to the vertex.
-The graph is said to have an Eulerian path if and only if it has **either 0 or 2 vertices of odd degree**.
+You are given an undirected connected graph with n vertices. To remind, the degree of a vertex is the number of edges that are connected to the vertex. The graph is said to have an Eulerian path if and only if it has **either 0 or 2 vertices of odd degree**.
 
-You can draw this graph on a paper without lifting the pencil from the paper and without using any edges more than once if it has an Eulerian path.
+You can draw this graph on paper without lifting the pencil from the paper and without using any edges more than once if it has an Eulerian path.
 
-You will be given adjacency matrix representation of an undirected connected graph with `n` nodes.
-You need to identify either if it has an Eulerian path or not.
-
+You will be given an adjacency matrix representation of an undirected connected graph with n nodes. You need to identify whether it has an Eulerian path or not.
 #### Example 1
 
 For example, see the following graph, and it's adjacency matrix:
@@ -23,8 +19,9 @@ From the figure, we can see that:
 - The degree of vertex D is 2
 - The degree of vertex E is 3
 
-It has 2 vertices (vertex B and vertex E) with odd degree. Thus, the graph is said to have Eulerian path.
-So, we can draw this graph on a paper without lifting the pencil from the paper and without using any edges twice. 
+It has 2 vertices (vertex B and vertex E) with odd degree. Thus, the graph is said to have an Eulerian path.
+So, we can draw this graph on paper without lifting the pencil from the paper and without using any edges twice. 
+We should return `true` for this case.
 
 #### Example 2
 
@@ -41,8 +38,9 @@ From the figure, we can see that:
 - The degree of vertex E is 3
 
 It has 4 vertices (vertex A, vertex B, vertex D, and vertex E) with odd degree. 
-Thus, the graph does not have any Eulerian path.
-So, we cannot draw this graph on a paper without lifting the pencil from the paper and without using any edges twice.
+Thus, the graph does not have an Eulerian path.
+So, we cannot draw this graph on paper without lifting the pencil from the paper and without using any edges twice. 
+We should return `false` for this case.
 
 ### Input constraints
 An integer `N (1 <= N <= 100)`, the number of nodes of the graph.
