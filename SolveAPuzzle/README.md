@@ -132,7 +132,7 @@ Return `true` if the graph has an Eulerian path. Otherwise, return `false`
 - Complete code file.
 - A PDF report containing the output of each test cases and screenshots of all successful run of the test cases. 
 
-## Marks Distribution
+## Grade Distribution
 - 40%: Correct generation of adjacency matrix
 - 40%: Correct result for Eulerian path
 - 20%: Report
